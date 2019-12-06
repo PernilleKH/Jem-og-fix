@@ -1,0 +1,68 @@
+/*
+Theme Name: jemogfix
+Theme URI: https://wordpress.org/themes/
+Author: Jonas, Mads og Pernille
+Author URI: https://wordpress.org/
+Description: Jem og fix
+Version: 1.0
+*/
+body{
+    margin: 0%;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #e30613;
+    align-items: center;
+}
+
+.søge{
+    height: 30%;
+    width: 75%;
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    border: solid white;
+    border-radius: 50px;
+}
+
+.fix-logo{
+    width: 50%;
+    margin: 5%;
+    border: solid white;
+}
+
+main{
+    display: block;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+}
+
+.banner{
+    width: 100%;
+    height: 100%;
+    padding 5%;
+}
+
+ .foot{
+     width: 100%;
+ }
+
+.video{
+    width: 80%;
+    height: 80vh;
+    margin-top:5%;
+    margin-left: 10%;
+    justify-content: center;
+    border: solid #e30613;
+}
+
+.mat{
+    width: 15%;
+    padding-left: 13.5%;
+    align-items: center;
+}
